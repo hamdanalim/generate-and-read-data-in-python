@@ -4,3 +4,4 @@
 	
 3. Read File,
 	command : python read _data_file.py -f dft2.txt 
+4. Data Type: id (object,str), device_id (object, str),  username (object,str), lokasi (object,str), timestamp (datetime64), amount (int64)
