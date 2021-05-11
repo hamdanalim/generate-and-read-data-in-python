@@ -16,7 +16,6 @@ import csv
 dft = pd.DataFrame({'id' : [uuid.uuid4() for i in range(4800000)],
                     'device_id' : ['00010','00011','00012','00013','00014','00015','00016','00017',
                                    '00018','00019','0001A','0001B','0001C','0001D','0001E','0001F'] * 300000,
-                   #'device_id' : [for i in range(120)],
                    'username' : ['Andi', 'Budi', 'Taja'] * 1600000,
                    'lokasi' : ['Bandung', 'Jakarta'] * 2400000,
                     'amount' : [np.random.randint(10, 1000) for i in range(4800000)],
